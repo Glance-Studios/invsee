@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "invsee",
+  "version": "${version}",
+  "name": "Invsee",
+  "description": "Server-side inventory viewer. Permission-gated /invsee <player> opens a live, editable view of another player's inventory. Integrates with chat-extensions' clickable [inv] token. Players install nothing.",
+  "authors": ["Cammy"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "server": [
+      { "adapter": "kotlin", "value": "dev.invsee.InvseeMod" }
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16",
+    "minecraft": "~26.2",
+    "java": ">=25",
+    "fabric-api": "*",
+    "fabric-language-kotlin": ">=1.13"
+  }
+}
