@@ -4,7 +4,7 @@
   "version": "${version}",
   "name": "Invsee",
   "description": "Server-side inventory viewer. Permission-gated /invsee <player> opens a live, editable view of another player's inventory. Integrates with chat-extensions' clickable [inv] token. Players install nothing.",
-  "authors": ["Cammy"],
+  "authors": ["Glance Studios"],
   "license": "MIT",
   "environment": "*",
   "entrypoints": {
